@@ -1,6 +1,6 @@
 function Pokedex({ pokemon }) {
     return (
-        <div>
+        <div className="Pokedex">
             {pokemon.map(item => <Pokecard key={item.id} id={item.id} name={item.name} type={item.type} base_experience={item.base_experience} />)}
         </div>
     )

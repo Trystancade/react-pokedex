@@ -1,6 +1,9 @@
 function App() {
     return (
-        <Pokedex />
+        <div>
+            <h1 className="title"> Pokedex</h1>
+            <Pokedex />
+        </div>
     )
 }
 
